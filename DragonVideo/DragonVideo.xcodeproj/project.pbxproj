@@ -1,0 +1,933 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D60091A1CABCA0F009EE01D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6009191CABCA0F009EE01D /* main.m */; };
+		2D60091D1CABCA0F009EE01D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D60091C1CABCA0F009EE01D /* AppDelegate.m */; };
+		2D6009201CABCA0F009EE01D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D60091F1CABCA0F009EE01D /* ViewController.m */; };
+		2D6009231CABCA0F009EE01D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6009211CABCA0F009EE01D /* Main.storyboard */; };
+		2D6009261CABCA0F009EE01D /* DragonVideo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D6009241CABCA0F009EE01D /* DragonVideo.xcdatamodeld */; };
+		2D6009281CABCA0F009EE01D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D6009271CABCA0F009EE01D /* Assets.xcassets */; };
+		2D60092B1CABCA0F009EE01D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6009291CABCA0F009EE01D /* LaunchScreen.storyboard */; };
+		2D6009391CABD04F009EE01D /* MJ_DragonBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6009381CABD04F009EE01D /* MJ_DragonBaseModel.m */; };
+		2D60093C1CABD070009EE01D /* MJ_DragonBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D60093B1CABD070009EE01D /* MJ_DragonBaseTableViewCell.m */; };
+		2D60093F1CABD086009EE01D /* MJ_DragonBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D60093E1CABD086009EE01D /* MJ_DragonBaseCollectionViewCell.m */; };
+		2D6009421CABD0D0009EE01D /* MJ_DragonBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6009411CABD0D0009EE01D /* MJ_DragonBaseView.m */; };
+		2D6009451CABD139009EE01D /* MJ_DragonBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6009441CABD139009EE01D /* MJ_DragonBaseViewController.m */; };
+		2D6009751CACA59D009EE01D /* MJ_DragonFoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6009741CACA59D009EE01D /* MJ_DragonFoodViewController.m */; };
+		2D6009781CACA5B3009EE01D /* MJ_DragonFoodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6009771CACA5B3009EE01D /* MJ_DragonFoodModel.m */; };
+		2D60097B1CACA5CF009EE01D /* MJ_DragonFoodView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D60097A1CACA5CF009EE01D /* MJ_DragonFoodView.m */; };
+		2D6009821CACA61B009EE01D /* MJ_DragonMYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6009811CACA61B009EE01D /* MJ_DragonMYViewController.m */; };
+		2D6009851CACA641009EE01D /* MJ_DragonMYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6009841CACA641009EE01D /* MJ_DragonMYModel.m */; };
+		2D6009881CACA658009EE01D /* MJ_DragonMYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6009871CACA658009EE01D /* MJ_DragonMYView.m */; };
+		2D60098F1CACA730009EE01D /* MJ_DragonEyeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D60098E1CACA730009EE01D /* MJ_DragonEyeView.m */; };
+		2D6009921CACA748009EE01D /* MJ_DragonEyeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6009911CACA748009EE01D /* MJ_DragonEyeModel.m */; };
+		2D6009951CACA758009EE01D /* MJ_DragonEyeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6009941CACA758009EE01D /* MJ_DragonEyeViewController.m */; };
+		2D6009981CACD5E8009EE01D /* MJ_DragonFoodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6009971CACD5E8009EE01D /* MJ_DragonFoodTableViewCell.m */; };
+		2D6009BA1CACF986009EE01D /* WJLAFNetworkingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6009B91CACF986009EE01D /* WJLAFNetworkingTool.m */; };
+		2D6009BE1CAD0994009EE01D /* MJ_DragonFoodDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6009BD1CAD0994009EE01D /* MJ_DragonFoodDetailViewController.m */; };
+		2D6009C11CAD0D5C009EE01D /* MJ_DragonFoodDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6009C01CAD0D5C009EE01D /* MJ_DragonFoodDetailTableViewCell.m */; };
+		2D6009C41CAD14FD009EE01D /* MJ_DragonFoodDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6009C31CAD14FD009EE01D /* MJ_DragonFoodDetailModel.m */; };
+		2D6009C81CAD2A15009EE01D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6009C71CAD2A15009EE01D /* AVFoundation.framework */; };
+		2D6009D21CAD380E009EE01D /* MJ_DragonPlayerBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6009D11CAD380E009EE01D /* MJ_DragonPlayerBaseViewController.m */; };
+		2D6009D51CAD3A12009EE01D /* MJ_DragonAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6009D41CAD3A12009EE01D /* MJ_DragonAVPlayer.m */; };
+		2D6009EE1CB49D9D009EE01D /* MJ_DragonMYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6009ED1CB49D9D009EE01D /* MJ_DragonMYTableViewCell.m */; };
+		2D600A681CB52645009EE01D /* CleanCaches.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D600A671CB52645009EE01D /* CleanCaches.m */; };
+		2D600A6B1CB54179009EE01D /* MJ_DragonMYFavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D600A6A1CB54179009EE01D /* MJ_DragonMYFavoritesViewController.m */; };
+		2D600AD41CB640C3009EE01D /* MJ_DragonWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D600AD31CB640C3009EE01D /* MJ_DragonWorldViewController.m */; };
+		2D600AD71CB64C84009EE01D /* MJ_DragonWorldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D600AD61CB64C84009EE01D /* MJ_DragonWorldTableViewCell.m */; };
+		2D600ADC1CB73C89009EE01D /* DragonEverydayEat+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D600AD91CB73C89009EE01D /* DragonEverydayEat+CoreDataProperties.m */; };
+		2D600ADD1CB73C89009EE01D /* DragonEverydayEat.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D600ADB1CB73C89009EE01D /* DragonEverydayEat.m */; };
+		2D600B0B1CB88C1B009EE01D /* MJ_DragonfavourirteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D600B0A1CB88C1B009EE01D /* MJ_DragonfavourirteTableViewCell.m */; };
+		2D600B0E1CB8DE0F009EE01D /* MJ_DragonDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D600B0D1CB8DE0F009EE01D /* MJ_DragonDownViewController.m */; };
+		2D600B111CB8F10E009EE01D /* MJ_DragonPlayFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D600B101CB8F10E009EE01D /* MJ_DragonPlayFileViewController.m */; };
+		2D600C0D1CBFB468009EE01D /* MJ_DragonGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D600C0C1CBFB468009EE01D /* MJ_DragonGuideViewController.m */; };
+		2D600C0F1CC07766009EE01D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D600C0E1CC07766009EE01D /* SystemConfiguration.framework */; };
+		2D600C121CC07925009EE01D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D600C111CC07925009EE01D /* Reachability.m */; };
+		492B54DD1CAD11A700A75B78 /* MJ_DragonEyeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 492B54DC1CAD11A700A75B78 /* MJ_DragonEyeDetailViewController.m */; };
+		492B54E01CAD11D100A75B78 /* MJ_DragonEyeDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 492B54DF1CAD11D100A75B78 /* MJ_DragonEyeDetailModel.m */; };
+		492B54E31CAD135E00A75B78 /* MJ_DragonEyeDetailDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 492B54E21CAD135E00A75B78 /* MJ_DragonEyeDetailDataModel.m */; };
+		492B54E61CAD18EC00A75B78 /* MJ_DragonEyeDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 492B54E51CAD18EC00A75B78 /* MJ_DragonEyeDetailTableViewCell.m */; };
+		492B54EC1CAD5A9A00A75B78 /* MJ_DragonMoreDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 492B54EB1CAD5A9A00A75B78 /* MJ_DragonMoreDetailViewController.m */; };
+		492B54EF1CAD612100A75B78 /* MJ_DragonMoreDetailCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 492B54EE1CAD612100A75B78 /* MJ_DragonMoreDetailCollectionViewCell.m */; };
+		4936B3881CAE6BF1006EFB08 /* MJ_DragonEyeCoverModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4936B3871CAE6BF1006EFB08 /* MJ_DragonEyeCoverModel.m */; };
+		4936B38B1CAE6EFB006EFB08 /* MJ_DragonEyeConsumptionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4936B38A1CAE6EFB006EFB08 /* MJ_DragonEyeConsumptionModel.m */; };
+		4984BD421CB52674006F37E7 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4984BD411CB52674006F37E7 /* CoreDataManager.m */; };
+		49C0BE871CB62EA000CC0CE8 /* MJ_DragonEyeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C0BE861CB62EA000CC0CE8 /* MJ_DragonEyeTableViewCell.m */; };
+		49C0BED21CB63CFC00CC0CE8 /* DragonVideo+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C0BECF1CB63CFC00CC0CE8 /* DragonVideo+CoreDataProperties.m */; };
+		49C0BED31CB63CFC00CC0CE8 /* DragonVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C0BED11CB63CFC00CC0CE8 /* DragonVideo.m */; };
+		49F70C1A1CAF796E0000B81C /* MJ_DragonEyePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F70C191CAF796E0000B81C /* MJ_DragonEyePlayerViewController.m */; };
+		49F70C1D1CAF7F2B0000B81C /* MJ_DragonEyePlayInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F70C1C1CAF7F2B0000B81C /* MJ_DragonEyePlayInfoModel.m */; };
+		49F70C201CAF976D0000B81C /* MJ_DragonEyeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F70C1F1CAF976D0000B81C /* MJ_DragonEyeCollectionViewCell.m */; };
+		49FE26981CB7AFE30014CB94 /* MJ_DragonWorldModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FE26971CB7AFE30014CB94 /* MJ_DragonWorldModel.m */; };
+		49FE269B1CB7B7240014CB94 /* MJ_DragonWorldUrlModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FE269A1CB7B7240014CB94 /* MJ_DragonWorldUrlModel.m */; };
+		D0F812D14CD39C0CF18A7EB1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D17D2DC3896E14159BADCBFF /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D6009151CABCA0F009EE01D /* DragonVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6009191CABCA0F009EE01D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D60091B1CABCA0F009EE01D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D60091C1CABCA0F009EE01D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D60091E1CABCA0F009EE01D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D60091F1CABCA0F009EE01D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D6009221CABCA0F009EE01D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D6009251CABCA0F009EE01D /* DragonVideo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DragonVideo.xcdatamodel; sourceTree = "<group>"; };
+		2D6009271CABCA0F009EE01D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D60092A1CABCA0F009EE01D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D60092C1CABCA0F009EE01D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D6009371CABD04F009EE01D /* MJ_DragonBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonBaseModel.h; sourceTree = "<group>"; };
+		2D6009381CABD04F009EE01D /* MJ_DragonBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonBaseModel.m; sourceTree = "<group>"; };
+		2D60093A1CABD070009EE01D /* MJ_DragonBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonBaseTableViewCell.h; sourceTree = "<group>"; };
+		2D60093B1CABD070009EE01D /* MJ_DragonBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonBaseTableViewCell.m; sourceTree = "<group>"; };
+		2D60093D1CABD086009EE01D /* MJ_DragonBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		2D60093E1CABD086009EE01D /* MJ_DragonBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		2D6009401CABD0D0009EE01D /* MJ_DragonBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonBaseView.h; sourceTree = "<group>"; };
+		2D6009411CABD0D0009EE01D /* MJ_DragonBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonBaseView.m; sourceTree = "<group>"; };
+		2D6009431CABD139009EE01D /* MJ_DragonBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonBaseViewController.h; sourceTree = "<group>"; };
+		2D6009441CABD139009EE01D /* MJ_DragonBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonBaseViewController.m; sourceTree = "<group>"; };
+		2D6009731CACA59D009EE01D /* MJ_DragonFoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonFoodViewController.h; sourceTree = "<group>"; };
+		2D6009741CACA59D009EE01D /* MJ_DragonFoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonFoodViewController.m; sourceTree = "<group>"; };
+		2D6009761CACA5B3009EE01D /* MJ_DragonFoodModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonFoodModel.h; sourceTree = "<group>"; };
+		2D6009771CACA5B3009EE01D /* MJ_DragonFoodModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonFoodModel.m; sourceTree = "<group>"; };
+		2D6009791CACA5CF009EE01D /* MJ_DragonFoodView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonFoodView.h; sourceTree = "<group>"; };
+		2D60097A1CACA5CF009EE01D /* MJ_DragonFoodView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonFoodView.m; sourceTree = "<group>"; };
+		2D6009801CACA61B009EE01D /* MJ_DragonMYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonMYViewController.h; sourceTree = "<group>"; };
+		2D6009811CACA61B009EE01D /* MJ_DragonMYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonMYViewController.m; sourceTree = "<group>"; };
+		2D6009831CACA641009EE01D /* MJ_DragonMYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonMYModel.h; sourceTree = "<group>"; };
+		2D6009841CACA641009EE01D /* MJ_DragonMYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonMYModel.m; sourceTree = "<group>"; };
+		2D6009861CACA658009EE01D /* MJ_DragonMYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonMYView.h; sourceTree = "<group>"; };
+		2D6009871CACA658009EE01D /* MJ_DragonMYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonMYView.m; sourceTree = "<group>"; };
+		2D60098D1CACA730009EE01D /* MJ_DragonEyeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonEyeView.h; sourceTree = "<group>"; };
+		2D60098E1CACA730009EE01D /* MJ_DragonEyeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonEyeView.m; sourceTree = "<group>"; };
+		2D6009901CACA748009EE01D /* MJ_DragonEyeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonEyeModel.h; sourceTree = "<group>"; };
+		2D6009911CACA748009EE01D /* MJ_DragonEyeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonEyeModel.m; sourceTree = "<group>"; };
+		2D6009931CACA758009EE01D /* MJ_DragonEyeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonEyeViewController.h; sourceTree = "<group>"; };
+		2D6009941CACA758009EE01D /* MJ_DragonEyeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonEyeViewController.m; sourceTree = "<group>"; };
+		2D6009961CACD5E8009EE01D /* MJ_DragonFoodTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonFoodTableViewCell.h; sourceTree = "<group>"; };
+		2D6009971CACD5E8009EE01D /* MJ_DragonFoodTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonFoodTableViewCell.m; sourceTree = "<group>"; };
+		2D6009B81CACF986009EE01D /* WJLAFNetworkingTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJLAFNetworkingTool.h; sourceTree = "<group>"; };
+		2D6009B91CACF986009EE01D /* WJLAFNetworkingTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJLAFNetworkingTool.m; sourceTree = "<group>"; };
+		2D6009BC1CAD0994009EE01D /* MJ_DragonFoodDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonFoodDetailViewController.h; sourceTree = "<group>"; };
+		2D6009BD1CAD0994009EE01D /* MJ_DragonFoodDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonFoodDetailViewController.m; sourceTree = "<group>"; };
+		2D6009BF1CAD0D5C009EE01D /* MJ_DragonFoodDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonFoodDetailTableViewCell.h; sourceTree = "<group>"; };
+		2D6009C01CAD0D5C009EE01D /* MJ_DragonFoodDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonFoodDetailTableViewCell.m; sourceTree = "<group>"; };
+		2D6009C31CAD14FD009EE01D /* MJ_DragonFoodDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonFoodDetailModel.m; sourceTree = "<group>"; };
+		2D6009C71CAD2A15009EE01D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2D6009D01CAD380E009EE01D /* MJ_DragonPlayerBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonPlayerBaseViewController.h; sourceTree = "<group>"; };
+		2D6009D11CAD380E009EE01D /* MJ_DragonPlayerBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonPlayerBaseViewController.m; sourceTree = "<group>"; };
+		2D6009D31CAD3A12009EE01D /* MJ_DragonAVPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonAVPlayer.h; sourceTree = "<group>"; };
+		2D6009D41CAD3A12009EE01D /* MJ_DragonAVPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonAVPlayer.m; sourceTree = "<group>"; };
+		2D6009EC1CB49D9D009EE01D /* MJ_DragonMYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonMYTableViewCell.h; sourceTree = "<group>"; };
+		2D6009ED1CB49D9D009EE01D /* MJ_DragonMYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonMYTableViewCell.m; sourceTree = "<group>"; };
+		2D600A661CB52645009EE01D /* CleanCaches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CleanCaches.h; sourceTree = "<group>"; };
+		2D600A671CB52645009EE01D /* CleanCaches.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CleanCaches.m; sourceTree = "<group>"; };
+		2D600A691CB54179009EE01D /* MJ_DragonMYFavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonMYFavoritesViewController.h; sourceTree = "<group>"; };
+		2D600A6A1CB54179009EE01D /* MJ_DragonMYFavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonMYFavoritesViewController.m; sourceTree = "<group>"; };
+		2D600AD21CB640C3009EE01D /* MJ_DragonWorldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonWorldViewController.h; sourceTree = "<group>"; };
+		2D600AD31CB640C3009EE01D /* MJ_DragonWorldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonWorldViewController.m; sourceTree = "<group>"; };
+		2D600AD51CB64C84009EE01D /* MJ_DragonWorldTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonWorldTableViewCell.h; sourceTree = "<group>"; };
+		2D600AD61CB64C84009EE01D /* MJ_DragonWorldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonWorldTableViewCell.m; sourceTree = "<group>"; };
+		2D600AD81CB73C89009EE01D /* DragonEverydayEat+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DragonEverydayEat+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2D600AD91CB73C89009EE01D /* DragonEverydayEat+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DragonEverydayEat+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2D600ADA1CB73C89009EE01D /* DragonEverydayEat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragonEverydayEat.h; sourceTree = "<group>"; };
+		2D600ADB1CB73C89009EE01D /* DragonEverydayEat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragonEverydayEat.m; sourceTree = "<group>"; };
+		2D600ADE1CB73CD6009EE01D /* MJ_DragonFoodDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonFoodDetailModel.h; sourceTree = "<group>"; };
+		2D600B091CB88C1B009EE01D /* MJ_DragonfavourirteTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonfavourirteTableViewCell.h; sourceTree = "<group>"; };
+		2D600B0A1CB88C1B009EE01D /* MJ_DragonfavourirteTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonfavourirteTableViewCell.m; sourceTree = "<group>"; };
+		2D600B0C1CB8DE0F009EE01D /* MJ_DragonDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonDownViewController.h; sourceTree = "<group>"; };
+		2D600B0D1CB8DE0F009EE01D /* MJ_DragonDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonDownViewController.m; sourceTree = "<group>"; };
+		2D600B0F1CB8F10E009EE01D /* MJ_DragonPlayFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonPlayFileViewController.h; sourceTree = "<group>"; };
+		2D600B101CB8F10E009EE01D /* MJ_DragonPlayFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonPlayFileViewController.m; sourceTree = "<group>"; };
+		2D600C0B1CBFB468009EE01D /* MJ_DragonGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonGuideViewController.h; sourceTree = "<group>"; };
+		2D600C0C1CBFB468009EE01D /* MJ_DragonGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonGuideViewController.m; sourceTree = "<group>"; };
+		2D600C0E1CC07766009EE01D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2D600C101CC07925009EE01D /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		2D600C111CC07925009EE01D /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		492B54DB1CAD11A700A75B78 /* MJ_DragonEyeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonEyeDetailViewController.h; sourceTree = "<group>"; };
+		492B54DC1CAD11A700A75B78 /* MJ_DragonEyeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonEyeDetailViewController.m; sourceTree = "<group>"; };
+		492B54DE1CAD11D100A75B78 /* MJ_DragonEyeDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonEyeDetailModel.h; sourceTree = "<group>"; };
+		492B54DF1CAD11D100A75B78 /* MJ_DragonEyeDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonEyeDetailModel.m; sourceTree = "<group>"; };
+		492B54E11CAD135E00A75B78 /* MJ_DragonEyeDetailDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonEyeDetailDataModel.h; sourceTree = "<group>"; };
+		492B54E21CAD135E00A75B78 /* MJ_DragonEyeDetailDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonEyeDetailDataModel.m; sourceTree = "<group>"; };
+		492B54E41CAD18EC00A75B78 /* MJ_DragonEyeDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonEyeDetailTableViewCell.h; sourceTree = "<group>"; };
+		492B54E51CAD18EC00A75B78 /* MJ_DragonEyeDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonEyeDetailTableViewCell.m; sourceTree = "<group>"; };
+		492B54EA1CAD5A9A00A75B78 /* MJ_DragonMoreDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonMoreDetailViewController.h; sourceTree = "<group>"; };
+		492B54EB1CAD5A9A00A75B78 /* MJ_DragonMoreDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonMoreDetailViewController.m; sourceTree = "<group>"; };
+		492B54ED1CAD612100A75B78 /* MJ_DragonMoreDetailCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonMoreDetailCollectionViewCell.h; sourceTree = "<group>"; };
+		492B54EE1CAD612100A75B78 /* MJ_DragonMoreDetailCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonMoreDetailCollectionViewCell.m; sourceTree = "<group>"; };
+		4936B3861CAE6BF1006EFB08 /* MJ_DragonEyeCoverModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonEyeCoverModel.h; sourceTree = "<group>"; };
+		4936B3871CAE6BF1006EFB08 /* MJ_DragonEyeCoverModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonEyeCoverModel.m; sourceTree = "<group>"; };
+		4936B3891CAE6EFB006EFB08 /* MJ_DragonEyeConsumptionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonEyeConsumptionModel.h; sourceTree = "<group>"; };
+		4936B38A1CAE6EFB006EFB08 /* MJ_DragonEyeConsumptionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonEyeConsumptionModel.m; sourceTree = "<group>"; };
+		4984BD401CB52674006F37E7 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		4984BD411CB52674006F37E7 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		49C0BE851CB62EA000CC0CE8 /* MJ_DragonEyeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonEyeTableViewCell.h; sourceTree = "<group>"; };
+		49C0BE861CB62EA000CC0CE8 /* MJ_DragonEyeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonEyeTableViewCell.m; sourceTree = "<group>"; };
+		49C0BECE1CB63CFC00CC0CE8 /* DragonVideo+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DragonVideo+CoreDataProperties.h"; sourceTree = "<group>"; };
+		49C0BECF1CB63CFC00CC0CE8 /* DragonVideo+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DragonVideo+CoreDataProperties.m"; sourceTree = "<group>"; };
+		49C0BED01CB63CFC00CC0CE8 /* DragonVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragonVideo.h; sourceTree = "<group>"; };
+		49C0BED11CB63CFC00CC0CE8 /* DragonVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragonVideo.m; sourceTree = "<group>"; };
+		49F70C181CAF796E0000B81C /* MJ_DragonEyePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonEyePlayerViewController.h; sourceTree = "<group>"; };
+		49F70C191CAF796E0000B81C /* MJ_DragonEyePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonEyePlayerViewController.m; sourceTree = "<group>"; };
+		49F70C1B1CAF7F2B0000B81C /* MJ_DragonEyePlayInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonEyePlayInfoModel.h; sourceTree = "<group>"; };
+		49F70C1C1CAF7F2B0000B81C /* MJ_DragonEyePlayInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonEyePlayInfoModel.m; sourceTree = "<group>"; };
+		49F70C1E1CAF976D0000B81C /* MJ_DragonEyeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonEyeCollectionViewCell.h; sourceTree = "<group>"; };
+		49F70C1F1CAF976D0000B81C /* MJ_DragonEyeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonEyeCollectionViewCell.m; sourceTree = "<group>"; };
+		49FE26961CB7AFE30014CB94 /* MJ_DragonWorldModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonWorldModel.h; sourceTree = "<group>"; };
+		49FE26971CB7AFE30014CB94 /* MJ_DragonWorldModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonWorldModel.m; sourceTree = "<group>"; };
+		49FE26991CB7B7240014CB94 /* MJ_DragonWorldUrlModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJ_DragonWorldUrlModel.h; sourceTree = "<group>"; };
+		49FE269A1CB7B7240014CB94 /* MJ_DragonWorldUrlModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJ_DragonWorldUrlModel.m; sourceTree = "<group>"; };
+		4F89C9C02ED6DDC4EDDD07F0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AD907FE3D95AA480D44C2512 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D17D2DC3896E14159BADCBFF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D6009121CABCA0F009EE01D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D600C0F1CC07766009EE01D /* SystemConfiguration.framework in Frameworks */,
+				2D6009C81CAD2A15009EE01D /* AVFoundation.framework in Frameworks */,
+				D0F812D14CD39C0CF18A7EB1 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D60090C1CABCA0F009EE01D = {
+			isa = PBXGroup;
+			children = (
+				2D6009CC1CAD37A0009EE01D /* playerViewController */,
+				2D6009891CACA70D009EE01D /* Eye */,
+				2D60096F1CACA54C009EE01D /* food */,
+				2D600ACE1CB640AF009EE01D /* World */,
+				2D60097C1CACA607009EE01D /* MY */,
+				2D600A7D1CB60904009EE01D /* DragonCoreData */,
+				2D6009331CABD026009EE01D /* Base */,
+				2D6009BB1CACF98E009EE01D /* Third */,
+				2D6009B61CACF986009EE01D /* MYTool */,
+				2D6009171CABCA0F009EE01D /* DragonVideo */,
+				2D6009161CABCA0F009EE01D /* Products */,
+				B4769488405DBB5C1D792711 /* Pods */,
+				3A96276ECC43717A0EC511DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2D6009161CABCA0F009EE01D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D6009151CABCA0F009EE01D /* DragonVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D6009171CABCA0F009EE01D /* DragonVideo */ = {
+			isa = PBXGroup;
+			children = (
+				2D60091B1CABCA0F009EE01D /* AppDelegate.h */,
+				2D60091C1CABCA0F009EE01D /* AppDelegate.m */,
+				2D60091E1CABCA0F009EE01D /* ViewController.h */,
+				2D60091F1CABCA0F009EE01D /* ViewController.m */,
+				2D6009211CABCA0F009EE01D /* Main.storyboard */,
+				2D6009271CABCA0F009EE01D /* Assets.xcassets */,
+				2D6009291CABCA0F009EE01D /* LaunchScreen.storyboard */,
+				2D60092C1CABCA0F009EE01D /* Info.plist */,
+				2D6009241CABCA0F009EE01D /* DragonVideo.xcdatamodeld */,
+				49C0BECE1CB63CFC00CC0CE8 /* DragonVideo+CoreDataProperties.h */,
+				49C0BECF1CB63CFC00CC0CE8 /* DragonVideo+CoreDataProperties.m */,
+				49C0BED01CB63CFC00CC0CE8 /* DragonVideo.h */,
+				49C0BED11CB63CFC00CC0CE8 /* DragonVideo.m */,
+				2D6009181CABCA0F009EE01D /* Supporting Files */,
+				2D600C0B1CBFB468009EE01D /* MJ_DragonGuideViewController.h */,
+				2D600C0C1CBFB468009EE01D /* MJ_DragonGuideViewController.m */,
+			);
+			path = DragonVideo;
+			sourceTree = "<group>";
+		};
+		2D6009181CABCA0F009EE01D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D6009191CABCA0F009EE01D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D6009331CABD026009EE01D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2D6009341CABD026009EE01D /* model */,
+				2D6009351CABD026009EE01D /* view */,
+				2D6009361CABD026009EE01D /* viewController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2D6009341CABD026009EE01D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				2D6009371CABD04F009EE01D /* MJ_DragonBaseModel.h */,
+				2D6009381CABD04F009EE01D /* MJ_DragonBaseModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		2D6009351CABD026009EE01D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2D60093A1CABD070009EE01D /* MJ_DragonBaseTableViewCell.h */,
+				2D60093B1CABD070009EE01D /* MJ_DragonBaseTableViewCell.m */,
+				2D60093D1CABD086009EE01D /* MJ_DragonBaseCollectionViewCell.h */,
+				2D60093E1CABD086009EE01D /* MJ_DragonBaseCollectionViewCell.m */,
+				2D6009401CABD0D0009EE01D /* MJ_DragonBaseView.h */,
+				2D6009411CABD0D0009EE01D /* MJ_DragonBaseView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2D6009361CABD026009EE01D /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D6009431CABD139009EE01D /* MJ_DragonBaseViewController.h */,
+				2D6009441CABD139009EE01D /* MJ_DragonBaseViewController.m */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		2D60096F1CACA54C009EE01D /* food */ = {
+			isa = PBXGroup;
+			children = (
+				2D6009721CACA54D009EE01D /* viewController */,
+				2D6009701CACA54D009EE01D /* model */,
+				2D6009711CACA54D009EE01D /* view */,
+			);
+			path = food;
+			sourceTree = "<group>";
+		};
+		2D6009701CACA54D009EE01D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				2D6009761CACA5B3009EE01D /* MJ_DragonFoodModel.h */,
+				2D6009771CACA5B3009EE01D /* MJ_DragonFoodModel.m */,
+				2D600ADE1CB73CD6009EE01D /* MJ_DragonFoodDetailModel.h */,
+				2D6009C31CAD14FD009EE01D /* MJ_DragonFoodDetailModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		2D6009711CACA54D009EE01D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2D6009791CACA5CF009EE01D /* MJ_DragonFoodView.h */,
+				2D60097A1CACA5CF009EE01D /* MJ_DragonFoodView.m */,
+				2D6009961CACD5E8009EE01D /* MJ_DragonFoodTableViewCell.h */,
+				2D6009971CACD5E8009EE01D /* MJ_DragonFoodTableViewCell.m */,
+				2D6009BF1CAD0D5C009EE01D /* MJ_DragonFoodDetailTableViewCell.h */,
+				2D6009C01CAD0D5C009EE01D /* MJ_DragonFoodDetailTableViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2D6009721CACA54D009EE01D /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D6009731CACA59D009EE01D /* MJ_DragonFoodViewController.h */,
+				2D6009741CACA59D009EE01D /* MJ_DragonFoodViewController.m */,
+				2D6009BC1CAD0994009EE01D /* MJ_DragonFoodDetailViewController.h */,
+				2D6009BD1CAD0994009EE01D /* MJ_DragonFoodDetailViewController.m */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		2D60097C1CACA607009EE01D /* MY */ = {
+			isa = PBXGroup;
+			children = (
+				2D60097F1CACA607009EE01D /* viewController */,
+				2D60097D1CACA607009EE01D /* model */,
+				2D60097E1CACA607009EE01D /* view */,
+			);
+			path = MY;
+			sourceTree = "<group>";
+		};
+		2D60097D1CACA607009EE01D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				2D6009831CACA641009EE01D /* MJ_DragonMYModel.h */,
+				2D6009841CACA641009EE01D /* MJ_DragonMYModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		2D60097E1CACA607009EE01D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2D6009861CACA658009EE01D /* MJ_DragonMYView.h */,
+				2D6009871CACA658009EE01D /* MJ_DragonMYView.m */,
+				2D6009EC1CB49D9D009EE01D /* MJ_DragonMYTableViewCell.h */,
+				2D6009ED1CB49D9D009EE01D /* MJ_DragonMYTableViewCell.m */,
+				49C0BE851CB62EA000CC0CE8 /* MJ_DragonEyeTableViewCell.h */,
+				49C0BE861CB62EA000CC0CE8 /* MJ_DragonEyeTableViewCell.m */,
+				2D600B091CB88C1B009EE01D /* MJ_DragonfavourirteTableViewCell.h */,
+				2D600B0A1CB88C1B009EE01D /* MJ_DragonfavourirteTableViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2D60097F1CACA607009EE01D /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D6009801CACA61B009EE01D /* MJ_DragonMYViewController.h */,
+				2D6009811CACA61B009EE01D /* MJ_DragonMYViewController.m */,
+				2D600A691CB54179009EE01D /* MJ_DragonMYFavoritesViewController.h */,
+				2D600A6A1CB54179009EE01D /* MJ_DragonMYFavoritesViewController.m */,
+				2D600B0C1CB8DE0F009EE01D /* MJ_DragonDownViewController.h */,
+				2D600B0D1CB8DE0F009EE01D /* MJ_DragonDownViewController.m */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		2D6009891CACA70D009EE01D /* Eye */ = {
+			isa = PBXGroup;
+			children = (
+				2D60098C1CACA70D009EE01D /* viewController */,
+				2D60098A1CACA70D009EE01D /* model */,
+				2D60098B1CACA70D009EE01D /* view */,
+			);
+			path = Eye;
+			sourceTree = "<group>";
+		};
+		2D60098A1CACA70D009EE01D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				2D6009901CACA748009EE01D /* MJ_DragonEyeModel.h */,
+				2D6009911CACA748009EE01D /* MJ_DragonEyeModel.m */,
+				492B54DE1CAD11D100A75B78 /* MJ_DragonEyeDetailModel.h */,
+				492B54DF1CAD11D100A75B78 /* MJ_DragonEyeDetailModel.m */,
+				492B54E11CAD135E00A75B78 /* MJ_DragonEyeDetailDataModel.h */,
+				492B54E21CAD135E00A75B78 /* MJ_DragonEyeDetailDataModel.m */,
+				4936B3861CAE6BF1006EFB08 /* MJ_DragonEyeCoverModel.h */,
+				4936B3871CAE6BF1006EFB08 /* MJ_DragonEyeCoverModel.m */,
+				4936B3891CAE6EFB006EFB08 /* MJ_DragonEyeConsumptionModel.h */,
+				4936B38A1CAE6EFB006EFB08 /* MJ_DragonEyeConsumptionModel.m */,
+				49F70C1B1CAF7F2B0000B81C /* MJ_DragonEyePlayInfoModel.h */,
+				49F70C1C1CAF7F2B0000B81C /* MJ_DragonEyePlayInfoModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		2D60098B1CACA70D009EE01D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2D60098D1CACA730009EE01D /* MJ_DragonEyeView.h */,
+				2D60098E1CACA730009EE01D /* MJ_DragonEyeView.m */,
+				49F70C1E1CAF976D0000B81C /* MJ_DragonEyeCollectionViewCell.h */,
+				49F70C1F1CAF976D0000B81C /* MJ_DragonEyeCollectionViewCell.m */,
+				492B54E41CAD18EC00A75B78 /* MJ_DragonEyeDetailTableViewCell.h */,
+				492B54E51CAD18EC00A75B78 /* MJ_DragonEyeDetailTableViewCell.m */,
+				492B54ED1CAD612100A75B78 /* MJ_DragonMoreDetailCollectionViewCell.h */,
+				492B54EE1CAD612100A75B78 /* MJ_DragonMoreDetailCollectionViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2D60098C1CACA70D009EE01D /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D6009931CACA758009EE01D /* MJ_DragonEyeViewController.h */,
+				2D6009941CACA758009EE01D /* MJ_DragonEyeViewController.m */,
+				492B54DB1CAD11A700A75B78 /* MJ_DragonEyeDetailViewController.h */,
+				492B54DC1CAD11A700A75B78 /* MJ_DragonEyeDetailViewController.m */,
+				492B54EA1CAD5A9A00A75B78 /* MJ_DragonMoreDetailViewController.h */,
+				492B54EB1CAD5A9A00A75B78 /* MJ_DragonMoreDetailViewController.m */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		2D6009B61CACF986009EE01D /* MYTool */ = {
+			isa = PBXGroup;
+			children = (
+				4984BD3F1CB5263B006F37E7 /* CoreDataManager */,
+				2D6009C51CAD28A9009EE01D /* AVplayer */,
+				2D6009B71CACF986009EE01D /* WJLAFNetworkingTool */,
+			);
+			path = MYTool;
+			sourceTree = "<group>";
+		};
+		2D6009B71CACF986009EE01D /* WJLAFNetworkingTool */ = {
+			isa = PBXGroup;
+			children = (
+				2D6009B81CACF986009EE01D /* WJLAFNetworkingTool.h */,
+				2D6009B91CACF986009EE01D /* WJLAFNetworkingTool.m */,
+			);
+			path = WJLAFNetworkingTool;
+			sourceTree = "<group>";
+		};
+		2D6009BB1CACF98E009EE01D /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				2D600C101CC07925009EE01D /* Reachability.h */,
+				2D600C111CC07925009EE01D /* Reachability.m */,
+				2D600A651CB52645009EE01D /* CleanCaches */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		2D6009C51CAD28A9009EE01D /* AVplayer */ = {
+			isa = PBXGroup;
+			children = (
+				2D6009D31CAD3A12009EE01D /* MJ_DragonAVPlayer.h */,
+				2D6009D41CAD3A12009EE01D /* MJ_DragonAVPlayer.m */,
+			);
+			path = AVplayer;
+			sourceTree = "<group>";
+		};
+		2D6009CC1CAD37A0009EE01D /* playerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D6009D01CAD380E009EE01D /* MJ_DragonPlayerBaseViewController.h */,
+				2D6009D11CAD380E009EE01D /* MJ_DragonPlayerBaseViewController.m */,
+				49F70C181CAF796E0000B81C /* MJ_DragonEyePlayerViewController.h */,
+				49F70C191CAF796E0000B81C /* MJ_DragonEyePlayerViewController.m */,
+				2D600B0F1CB8F10E009EE01D /* MJ_DragonPlayFileViewController.h */,
+				2D600B101CB8F10E009EE01D /* MJ_DragonPlayFileViewController.m */,
+			);
+			path = playerViewController;
+			sourceTree = "<group>";
+		};
+		2D600A651CB52645009EE01D /* CleanCaches */ = {
+			isa = PBXGroup;
+			children = (
+				2D600A661CB52645009EE01D /* CleanCaches.h */,
+				2D600A671CB52645009EE01D /* CleanCaches.m */,
+			);
+			path = CleanCaches;
+			sourceTree = "<group>";
+		};
+		2D600A7D1CB60904009EE01D /* DragonCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2D600AD81CB73C89009EE01D /* DragonEverydayEat+CoreDataProperties.h */,
+				2D600AD91CB73C89009EE01D /* DragonEverydayEat+CoreDataProperties.m */,
+				2D600ADA1CB73C89009EE01D /* DragonEverydayEat.h */,
+				2D600ADB1CB73C89009EE01D /* DragonEverydayEat.m */,
+			);
+			path = DragonCoreData;
+			sourceTree = "<group>";
+		};
+		2D600ACE1CB640AF009EE01D /* World */ = {
+			isa = PBXGroup;
+			children = (
+				2D600AD11CB640AF009EE01D /* viewController */,
+				49FE26891CB7AEEE0014CB94 /* Model */,
+				2D600AD01CB640AF009EE01D /* view */,
+			);
+			path = World;
+			sourceTree = "<group>";
+		};
+		2D600AD01CB640AF009EE01D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2D600AD51CB64C84009EE01D /* MJ_DragonWorldTableViewCell.h */,
+				2D600AD61CB64C84009EE01D /* MJ_DragonWorldTableViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2D600AD11CB640AF009EE01D /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D600AD21CB640C3009EE01D /* MJ_DragonWorldViewController.h */,
+				2D600AD31CB640C3009EE01D /* MJ_DragonWorldViewController.m */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		3A96276ECC43717A0EC511DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D600C0E1CC07766009EE01D /* SystemConfiguration.framework */,
+				2D6009C71CAD2A15009EE01D /* AVFoundation.framework */,
+				D17D2DC3896E14159BADCBFF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4984BD3F1CB5263B006F37E7 /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				4984BD401CB52674006F37E7 /* CoreDataManager.h */,
+				4984BD411CB52674006F37E7 /* CoreDataManager.m */,
+			);
+			name = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		49FE26891CB7AEEE0014CB94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49FE26961CB7AFE30014CB94 /* MJ_DragonWorldModel.h */,
+				49FE26971CB7AFE30014CB94 /* MJ_DragonWorldModel.m */,
+				49FE26991CB7B7240014CB94 /* MJ_DragonWorldUrlModel.h */,
+				49FE269A1CB7B7240014CB94 /* MJ_DragonWorldUrlModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4769488405DBB5C1D792711 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD907FE3D95AA480D44C2512 /* Pods.debug.xcconfig */,
+				4F89C9C02ED6DDC4EDDD07F0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D6009141CABCA0F009EE01D /* DragonVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D60092F1CABCA0F009EE01D /* Build configuration list for PBXNativeTarget "DragonVideo" */;
+			buildPhases = (
+				2379FCC2CB771D59412B8531 /* Check Pods Manifest.lock */,
+				2D6009111CABCA0F009EE01D /* Sources */,
+				2D6009121CABCA0F009EE01D /* Frameworks */,
+				2D6009131CABCA0F009EE01D /* Resources */,
+				B2E47D7E1EAEF0BA93CE2327 /* Embed Pods Frameworks */,
+				9ADAB2735336A0ADDAE0DF5A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragonVideo;
+			productName = DragonVideo;
+			productReference = 2D6009151CABCA0F009EE01D /* DragonVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D60090D1CABCA0F009EE01D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MJ_Dragon;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = MJ;
+				TargetAttributes = {
+					2D6009141CABCA0F009EE01D = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 2D6009101CABCA0F009EE01D /* Build configuration list for PBXProject "DragonVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D60090C1CABCA0F009EE01D;
+			productRefGroup = 2D6009161CABCA0F009EE01D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D6009141CABCA0F009EE01D /* DragonVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D6009131CABCA0F009EE01D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D60092B1CABCA0F009EE01D /* LaunchScreen.storyboard in Resources */,
+				2D6009281CABCA0F009EE01D /* Assets.xcassets in Resources */,
+				2D6009231CABCA0F009EE01D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2379FCC2CB771D59412B8531 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9ADAB2735336A0ADDAE0DF5A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2E47D7E1EAEF0BA93CE2327 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D6009111CABCA0F009EE01D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D600B111CB8F10E009EE01D /* MJ_DragonPlayFileViewController.m in Sources */,
+				4984BD421CB52674006F37E7 /* CoreDataManager.m in Sources */,
+				2D6009201CABCA0F009EE01D /* ViewController.m in Sources */,
+				2D6009D51CAD3A12009EE01D /* MJ_DragonAVPlayer.m in Sources */,
+				2D600C0D1CBFB468009EE01D /* MJ_DragonGuideViewController.m in Sources */,
+				2D60093F1CABD086009EE01D /* MJ_DragonBaseCollectionViewCell.m in Sources */,
+				2D6009391CABD04F009EE01D /* MJ_DragonBaseModel.m in Sources */,
+				2D6009D21CAD380E009EE01D /* MJ_DragonPlayerBaseViewController.m in Sources */,
+				49FE26981CB7AFE30014CB94 /* MJ_DragonWorldModel.m in Sources */,
+				49F70C1A1CAF796E0000B81C /* MJ_DragonEyePlayerViewController.m in Sources */,
+				49C0BED31CB63CFC00CC0CE8 /* DragonVideo.m in Sources */,
+				2D6009C11CAD0D5C009EE01D /* MJ_DragonFoodDetailTableViewCell.m in Sources */,
+				2D6009851CACA641009EE01D /* MJ_DragonMYModel.m in Sources */,
+				2D60093C1CABD070009EE01D /* MJ_DragonBaseTableViewCell.m in Sources */,
+				492B54E61CAD18EC00A75B78 /* MJ_DragonEyeDetailTableViewCell.m in Sources */,
+				4936B3881CAE6BF1006EFB08 /* MJ_DragonEyeCoverModel.m in Sources */,
+				2D6009781CACA5B3009EE01D /* MJ_DragonFoodModel.m in Sources */,
+				492B54E01CAD11D100A75B78 /* MJ_DragonEyeDetailModel.m in Sources */,
+				492B54DD1CAD11A700A75B78 /* MJ_DragonEyeDetailViewController.m in Sources */,
+				2D600A681CB52645009EE01D /* CleanCaches.m in Sources */,
+				2D6009BE1CAD0994009EE01D /* MJ_DragonFoodDetailViewController.m in Sources */,
+				2D6009BA1CACF986009EE01D /* WJLAFNetworkingTool.m in Sources */,
+				2D600B0E1CB8DE0F009EE01D /* MJ_DragonDownViewController.m in Sources */,
+				49C0BED21CB63CFC00CC0CE8 /* DragonVideo+CoreDataProperties.m in Sources */,
+				49F70C1D1CAF7F2B0000B81C /* MJ_DragonEyePlayInfoModel.m in Sources */,
+				2D6009C41CAD14FD009EE01D /* MJ_DragonFoodDetailModel.m in Sources */,
+				2D6009751CACA59D009EE01D /* MJ_DragonFoodViewController.m in Sources */,
+				2D60091D1CABCA0F009EE01D /* AppDelegate.m in Sources */,
+				2D600AD41CB640C3009EE01D /* MJ_DragonWorldViewController.m in Sources */,
+				49F70C201CAF976D0000B81C /* MJ_DragonEyeCollectionViewCell.m in Sources */,
+				2D6009951CACA758009EE01D /* MJ_DragonEyeViewController.m in Sources */,
+				2D600AD71CB64C84009EE01D /* MJ_DragonWorldTableViewCell.m in Sources */,
+				492B54EC1CAD5A9A00A75B78 /* MJ_DragonMoreDetailViewController.m in Sources */,
+				49C0BE871CB62EA000CC0CE8 /* MJ_DragonEyeTableViewCell.m in Sources */,
+				2D6009421CABD0D0009EE01D /* MJ_DragonBaseView.m in Sources */,
+				49FE269B1CB7B7240014CB94 /* MJ_DragonWorldUrlModel.m in Sources */,
+				2D6009EE1CB49D9D009EE01D /* MJ_DragonMYTableViewCell.m in Sources */,
+				2D6009821CACA61B009EE01D /* MJ_DragonMYViewController.m in Sources */,
+				2D600ADD1CB73C89009EE01D /* DragonEverydayEat.m in Sources */,
+				2D6009981CACD5E8009EE01D /* MJ_DragonFoodTableViewCell.m in Sources */,
+				2D6009261CABCA0F009EE01D /* DragonVideo.xcdatamodeld in Sources */,
+				2D600B0B1CB88C1B009EE01D /* MJ_DragonfavourirteTableViewCell.m in Sources */,
+				492B54EF1CAD612100A75B78 /* MJ_DragonMoreDetailCollectionViewCell.m in Sources */,
+				2D6009451CABD139009EE01D /* MJ_DragonBaseViewController.m in Sources */,
+				492B54E31CAD135E00A75B78 /* MJ_DragonEyeDetailDataModel.m in Sources */,
+				2D60098F1CACA730009EE01D /* MJ_DragonEyeView.m in Sources */,
+				2D60097B1CACA5CF009EE01D /* MJ_DragonFoodView.m in Sources */,
+				2D600ADC1CB73C89009EE01D /* DragonEverydayEat+CoreDataProperties.m in Sources */,
+				2D6009921CACA748009EE01D /* MJ_DragonEyeModel.m in Sources */,
+				4936B38B1CAE6EFB006EFB08 /* MJ_DragonEyeConsumptionModel.m in Sources */,
+				2D60091A1CABCA0F009EE01D /* main.m in Sources */,
+				2D600A6B1CB54179009EE01D /* MJ_DragonMYFavoritesViewController.m in Sources */,
+				2D600C121CC07925009EE01D /* Reachability.m in Sources */,
+				2D6009881CACA658009EE01D /* MJ_DragonMYView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D6009211CABCA0F009EE01D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D6009221CABCA0F009EE01D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D6009291CABCA0F009EE01D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D60092A1CABCA0F009EE01D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D60092D1CABCA0F009EE01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D60092E1CABCA0F009EE01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D6009301CABCA0F009EE01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD907FE3D95AA480D44C2512 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				INFOPLIST_FILE = DragonVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-74688925-qq.com.DragonVideo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2D6009311CABCA0F009EE01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F89C9C02ED6DDC4EDDD07F0 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				INFOPLIST_FILE = DragonVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-74688925-qq.com.DragonVideo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D6009101CABCA0F009EE01D /* Build configuration list for PBXProject "DragonVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D60092D1CABCA0F009EE01D /* Debug */,
+				2D60092E1CABCA0F009EE01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D60092F1CABCA0F009EE01D /* Build configuration list for PBXNativeTarget "DragonVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6009301CABCA0F009EE01D /* Debug */,
+				2D6009311CABCA0F009EE01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2D6009241CABCA0F009EE01D /* DragonVideo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2D6009251CABCA0F009EE01D /* DragonVideo.xcdatamodel */,
+			);
+			currentVersion = 2D6009251CABCA0F009EE01D /* DragonVideo.xcdatamodel */;
+			path = DragonVideo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2D60090D1CABCA0F009EE01D /* Project object */;
+}

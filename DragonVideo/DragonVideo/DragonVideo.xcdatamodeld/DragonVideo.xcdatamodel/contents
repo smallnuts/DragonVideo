@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Automatic">
+    <entity name="DragonEverydayEat" representedClassName="DragonEverydayEat" syncable="YES">
+        <attribute name="course_image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="course_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="course_subject" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="course_video" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="video_watchcount" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="DragonVideo" representedClassName="DragonVideo" syncable="YES">
+        <attribute name="dataId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="feed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="highUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="markUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DragonEverydayEat" positionX="-18" positionY="45" width="128" height="120"/>
+        <element name="DragonVideo" positionX="-45" positionY="0" width="128" height="135"/>
+    </elements>
+</model>
